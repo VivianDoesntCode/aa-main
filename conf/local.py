@@ -2,10 +2,10 @@
 from .base import *
 
 # Django App Secretkey change if you want
-SECRET_KEY = 'REPLACETHISSHIT'
+SECRET_KEY = 'HJKdadkhsakHJKdadjhkasdhjkH'
 
 # Change this to change the name of the auth site
-SITE_NAME = 'Alliance Auth'
+SITE_NAME = 'TTRTT Auth'
 
 DEBUG = False
 # Add any additional apps to this list. Pre-Populated with some Apps
@@ -31,10 +31,10 @@ DATABASES['default'] = {
 # Logging in to auth requires the publicData scope (can be overridden through the
 # LOGIN_TOKEN_SCOPES setting). Other apps may require more (see their docs).
 
-ESI_SSO_CLIENT_ID = ''
-ESI_SSO_CLIENT_SECRET = ''
-ESI_SSO_CALLBACK_URL = ''
-ESI_USER_CONTACT_EMAIL = ''    # A server maintainer that CCP can contact in case of issues.
+ESI_SSO_CLIENT_ID = '55bc5d76a9d44c8ba84456a505d206a2'
+ESI_SSO_CLIENT_SECRET = 'JfgTPFQaMdqAcfyTYb0K41KBiJP5DRdunKdHMfU0'
+ESI_SSO_CALLBACK_URL = 'https://auth.ahlosclub.com/sso/callback'
+ESI_USER_CONTACT_EMAIL = 'alpha15@ahlosclub.com'    # A server maintainer that CCP can contact in case of issues.
 
 
 # By default emails are validated before new users can log in.
@@ -43,7 +43,7 @@ ESI_USER_CONTACT_EMAIL = ''    # A server maintainer that CCP can contact in cas
 # https://elasticemail.com/resources/settings/smtp-api/
 # Set the default from email to something like 'noreply@example.com'
 # Email validation can be turned off by uncommenting the line below. This can break some services.
-# REGISTRATION_VERIFY_EMAIL = False
+REGISTRATION_VERIFY_EMAIL = False
 EMAIL_HOST = ''
 EMAIL_PORT = 587
 EMAIL_HOST_USER = ''

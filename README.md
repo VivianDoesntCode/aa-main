@@ -95,3 +95,4 @@ Run migrations and restart your AA server
 ```docker exec -it aa-auth python manage.py makemigrations && python manage.py migrate && python manage.py collectstatic && /usr/bin/supervisord```
 
 
+# aa-main
